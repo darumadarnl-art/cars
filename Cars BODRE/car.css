@@ -1,0 +1,52 @@
+/* Carros en Stock */
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.contenedor section {
+    flex: 3;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.contenedor aside {
+    flex: 1;
+    background-color: #d9d9d9;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+    color: #e63946;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #333333;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #e63946;
+    color: white;
+}
